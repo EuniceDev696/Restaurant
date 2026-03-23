@@ -1,0 +1,841 @@
+{
+    "menu":  [
+                 {
+                     "image":  "/images/menu/menu-seared-scallops.png",
+                     "available":  true,
+                     "id":  "dish-1",
+                     "category":  "Starters",
+                     "notes":  "Pan-seared to golden perfection with a delicate citrus butter sauce and charred greens. Nut-free and naturally gluten-free.",
+                     "allergens":  "Shellfish, Milk",
+                     "ingredients":  [
+                                         "Scallops",
+                                         "Butter",
+                                         "Lemon zest",
+                                         "Asparagus",
+                                         "White wine"
+                                     ],
+                     "name":  "Seared Scallops",
+                     "dietary":  [
+                                     "nut-free",
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-seared-scallops-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-french-onion-soup.svg",
+                     "available":  true,
+                     "id":  "dish-2",
+                     "category":  "Starters",
+                     "notes":  "Slow-caramelized onions in rich beef broth, topped with toasted bread and melted cheese. Nut-free.",
+                     "allergens":  "Gluten, Milk",
+                     "ingredients":  [
+                                         "Onions",
+                                         "Beef stock",
+                                         "Baguette",
+                                         "Gruyere cheese"
+                                     ],
+                     "name":  "French Onion Soup",
+                     "dietary":  [
+                                     "nut-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-french-onion-soup-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-burrata-and-heirloom-tomato.svg",
+                     "available":  true,
+                     "id":  "dish-3",
+                     "category":  "Starters",
+                     "notes":  "Creamy burrata lightly smoked and paired with fresh tomatoes and basil oil. Nut-free.",
+                     "allergens":  "Milk",
+                     "ingredients":  [
+                                         "Burrata cheese",
+                                         "Tomatoes",
+                                         "Olive oil",
+                                         "Basil"
+                                     ],
+                     "name":  "Burrata and Heirloom Tomato",
+                     "dietary":  [
+                                     "nut-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-burrata-and-heirloom-tomato-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-lobster-bisque.svg",
+                     "available":  true,
+                     "id":  "dish-4",
+                     "category":  "Starters",
+                     "notes":  "Silky seafood soup enriched with cream and a hint of cognac. Nut-free; can be gluten-free when no roux or croutons are used.",
+                     "allergens":  "Shellfish, Milk",
+                     "ingredients":  [
+                                         "Lobster stock",
+                                         "Cream",
+                                         "Butter",
+                                         "Herbs"
+                                     ],
+                     "name":  "Lobster Bisque",
+                     "dietary":  [
+                                     "nut-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-lobster-bisque-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-charcoal-grilled-wagyu-steak.svg",
+                     "available":  true,
+                     "id":  "dish-5",
+                     "category":  "Main",
+                     "notes":  "Flame-grilled wagyu served medium-rare with herb butter and roasted vegetables. Nut-free and naturally gluten-free.",
+                     "allergens":  "Milk",
+                     "ingredients":  [
+                                         "Wagyu beef",
+                                         "Garlic butter",
+                                         "Rosemary",
+                                         "Carrots"
+                                     ],
+                     "name":  "Charcoal-Grilled Wagyu Steak",
+                     "dietary":  [
+                                     "gluten-free",
+                                     "nut-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-charcoal-grilled-wagyu-steak-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-herb-crusted-lamb-rack.svg",
+                     "available":  true,
+                     "id":  "dish-6",
+                     "category":  "Main",
+                     "notes":  "Oven-roasted lamb coated in fresh herbs, finished with red wine reduction. Nut-free and gluten-free when sides are prepared safely.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Lamb rack",
+                                         "Rosemary",
+                                         "Thyme",
+                                         "Red wine jus"
+                                     ],
+                     "name":  "Herb-Crusted Lamb Rack",
+                     "dietary":  [
+                                     "gluten-free",
+                                     "nut-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-herb-crusted-lamb-rack-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-wood-fired-sea-bass.svg",
+                     "available":  true,
+                     "id":  "dish-7",
+                     "category":  "Main",
+                     "notes":  "Fresh sea bass roasted in a wood oven with saffron cream sauce. Nut-free and gluten-free.",
+                     "allergens":  "Fish, Milk",
+                     "ingredients":  [
+                                         "Sea bass",
+                                         "Saffron",
+                                         "Cream",
+                                         "Lemon"
+                                     ],
+                     "name":  "Wood-Fired Sea Bass",
+                     "dietary":  [
+                                     "nut-free",
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-wood-fired-sea-bass-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-wild-mushroom-risotto.svg",
+                     "available":  true,
+                     "id":  "dish-8",
+                     "category":  "Main",
+                     "notes":  "Slow-cooked arborio rice finished with parmesan and truffle oil. Check truffle oil sourcing for nut-trace safety.",
+                     "allergens":  "Milk",
+                     "ingredients":  [
+                                         "Arborio rice",
+                                         "Mushrooms",
+                                         "Parmesan",
+                                         "Vegetable stock"
+                                     ],
+                     "name":  "Wild Mushroom Risotto",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-wild-mushroom-risotto-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-chocolate-fondant.svg",
+                     "available":  true,
+                     "id":  "dish-9",
+                     "category":  "Dessert",
+                     "notes":  "Warm dark chocolate cake with molten center. Contains gluten; requires special gluten-free variant.",
+                     "allergens":  "Milk, Eggs, Gluten",
+                     "ingredients":  [
+                                         "Chocolate",
+                                         "Butter",
+                                         "Eggs",
+                                         "Flour"
+                                     ],
+                     "name":  "Chocolate Fondant",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-chocolate-fondant-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-creme-brulee.svg",
+                     "available":  true,
+                     "id":  "dish-10",
+                     "category":  "Dessert",
+                     "notes":  "Classic vanilla custard topped with caramelized sugar crust. Gluten-free.",
+                     "allergens":  "Milk, Eggs",
+                     "ingredients":  [
+                                         "Cream",
+                                         "Egg yolk",
+                                         "Sugar",
+                                         "Vanilla"
+                                     ],
+                     "name":  "Creme Brulee",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-creme-brulee-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-beef-suya.svg",
+                     "available":  true,
+                     "id":  "dish-11",
+                     "category":  "African Special",
+                     "notes":  "Premium beef coated in traditional yaji spice and grilled over charcoal. Gluten-free.",
+                     "allergens":  "Peanuts",
+                     "ingredients":  [
+                                         "Beef",
+                                         "Groundnut spice mix",
+                                         "Chili",
+                                         "Onions"
+                                     ],
+                     "name":  "Beef Suya",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-beef-suya-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-asun.svg",
+                     "available":  true,
+                     "id":  "dish-12",
+                     "category":  "African Special",
+                     "notes":  "Char-grilled goat meat tossed in spicy pepper sauce. Gluten-free.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Goat meat",
+                                         "Scotch bonnet",
+                                         "Onions",
+                                         "Seasoning"
+                                     ],
+                     "name":  "Asun",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-asun-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-pepper-soup-goat-or-fish.svg",
+                     "available":  true,
+                     "id":  "dish-13",
+                     "category":  "African Special",
+                     "notes":  "Light but spicy broth infused with traditional spices. Gluten-free.",
+                     "allergens":  "Fish (if fish option)",
+                     "ingredients":  [
+                                         "Goat meat or fish",
+                                         "Pepper soup spice",
+                                         "Scent leaf"
+                                     ],
+                     "name":  "Pepper Soup (Goat or Fish)",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-pepper-soup-goat-or-fish-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-moi-moi.svg",
+                     "available":  true,
+                     "id":  "dish-14",
+                     "category":  "African Special",
+                     "notes":  "Steamed bean pudding blended smooth and served warm.",
+                     "allergens":  "None (unless egg/fish added)",
+                     "ingredients":  [
+                                         "Beans",
+                                         "Pepper",
+                                         "Onions",
+                                         "Palm oil"
+                                     ],
+                     "name":  "Moi Moi",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-moi-moi-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-egusi-soup.svg",
+                     "available":  true,
+                     "id":  "dish-15",
+                     "category":  "African Special",
+                     "notes":  "Rich melon seed soup cooked with assorted meats and leafy vegetables. Served with swallow options: Pounded Yam, Amala, Eba, Fufu, Wheat. Gluten-free when served with gluten-free swallow.",
+                     "allergens":  "Fish",
+                     "ingredients":  [
+                                         "Egusi",
+                                         "Beef",
+                                         "Stockfish",
+                                         "Palm oil",
+                                         "Spinach"
+                                     ],
+                     "name":  "Egusi Soup",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-egusi-soup-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-banga-soup.svg",
+                     "available":  true,
+                     "id":  "dish-16",
+                     "category":  "African Special",
+                     "notes":  "Palm fruit soup deeply flavored with traditional spices and seafood. Served with swallow options: Pounded Yam, Amala, Eba, Fufu, Wheat. Gluten-free when served with gluten-free swallow.",
+                     "allergens":  "Fish, Shellfish",
+                     "ingredients":  [
+                                         "Palm fruit extract",
+                                         "Catfish",
+                                         "Periwinkle",
+                                         "Spices"
+                                     ],
+                     "name":  "Banga Soup",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-banga-soup-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-oha-soup.svg",
+                     "available":  true,
+                     "id":  "dish-17",
+                     "category":  "African Special",
+                     "notes":  "Thick, savory soup made with oha leaves and assorted meats. Served with swallow options: Pounded Yam, Amala, Eba, Fufu, Wheat. Gluten-free when served with gluten-free swallow.",
+                     "allergens":  "Fish",
+                     "ingredients":  [
+                                         "Oha leaves",
+                                         "Cocoyam thickener",
+                                         "Beef",
+                                         "Stockfish"
+                                     ],
+                     "name":  "Oha Soup",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-oha-soup-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-ofada-rice-and-ayamase.svg",
+                     "available":  true,
+                     "id":  "dish-18",
+                     "category":  "African Special",
+                     "notes":  "Local Ofada rice served with spicy green pepper sauce and assorted meats. Gluten-free.",
+                     "allergens":  "Fish (if stockfish included)",
+                     "ingredients":  [
+                                         "Ofada rice",
+                                         "Green pepper",
+                                         "Palm oil",
+                                         "Assorted meats"
+                                     ],
+                     "name":  "Ofada Rice and Ayamase",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-ofada-rice-and-ayamase-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-jollof-rice-with-grilled-chicken-or-prawns.svg",
+                     "available":  true,
+                     "id":  "dish-19",
+                     "category":  "African Special",
+                     "notes":  "Smoky firewood-style jollof rice paired with flame-grilled protein. Gluten-free when no wheat flour is used in sauce.",
+                     "allergens":  "Shellfish (if prawns)",
+                     "ingredients":  [
+                                         "Rice",
+                                         "Tomato",
+                                         "Pepper",
+                                         "Chicken or prawns"
+                                     ],
+                     "name":  "Jollof Rice with Grilled Chicken or Prawns",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-jollof-rice-with-grilled-chicken-or-prawns-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-puff-puff.svg",
+                     "available":  true,
+                     "id":  "dish-20",
+                     "category":  "Dessert",
+                     "notes":  "Light, fluffy fried dough served warm.",
+                     "allergens":  "Gluten",
+                     "ingredients":  [
+                                         "Flour",
+                                         "Yeast",
+                                         "Sugar"
+                                     ],
+                     "name":  "Puff Puff",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-puff-puff-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-chin-chin.png",
+                     "available":  true,
+                     "id":  "dish-21",
+                     "category":  "Dessert",
+                     "notes":  "Crunchy sweet fried pastry cubes.",
+                     "allergens":  "Gluten, Milk",
+                     "ingredients":  [
+                                         "Flour",
+                                         "Milk",
+                                         "Sugar",
+                                         "Butter"
+                                     ],
+                     "name":  "Chin Chin",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-chin-chin-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-coconut-rice-pudding.svg",
+                     "available":  true,
+                     "id":  "dish-22",
+                     "category":  "Dessert",
+                     "notes":  "Creamy rice pudding infused with coconut milk and light spice. Naturally gluten-free.",
+                     "allergens":  "None (unless dairy added)",
+                     "ingredients":  [
+                                         "Rice",
+                                         "Coconut milk",
+                                         "Sugar",
+                                         "Cinnamon"
+                                     ],
+                     "name":  "Coconut Rice Pudding",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-coconut-rice-pudding-hover.svg"
+                 },
+                 {
+                     "image":  "/images/menu/menu-smoky-citrus-martini.png",
+                     "available":  true,
+                     "id":  "drink-1",
+                     "category":  "Drinks",
+                     "notes":  "Gin, smoked citrus peel, dry vermouth.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Gin",
+                                         "Smoked citrus peel",
+                                         "Dry vermouth"
+                                     ],
+                     "name":  "Smoky Citrus Martini",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-smoky-citrus-martini-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-lagos-nights-old-fashioned.png",
+                     "available":  true,
+                     "id":  "drink-2",
+                     "category":  "Drinks",
+                     "notes":  "Bourbon, smoked sugar cube, orange zest.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Bourbon",
+                                         "Smoked sugar cube",
+                                         "Orange zest"
+                                     ],
+                     "name":  "Lagos Nights Old Fashioned",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-lagos-nights-old-fashioned-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-spiced-rum-fizz.png",
+                     "available":  true,
+                     "id":  "drink-3",
+                     "category":  "Drinks",
+                     "notes":  "Rum, fresh lime, dash of chili syrup.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Rum",
+                                         "Fresh lime",
+                                         "Chili syrup"
+                                     ],
+                     "name":  "Spiced Rum Fizz",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-spiced-rum-fizz-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-tropical-passion-spritz.png",
+                     "available":  true,
+                     "id":  "drink-4",
+                     "category":  "Drinks",
+                     "notes":  "Passionfruit, prosecco, hint of mint.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Passionfruit",
+                                         "Prosecco",
+                                         "Mint"
+                                     ],
+                     "name":  "Tropical Passion Spritz",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-tropical-passion-spritz-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-citrus-and-ginger-sparkler.png",
+                     "available":  true,
+                     "id":  "drink-5",
+                     "category":  "Drinks",
+                     "notes":  "Fresh orange, ginger, soda water.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Fresh orange",
+                                         "Ginger",
+                                         "Soda water"
+                                     ],
+                     "name":  "Citrus and Ginger Sparkler",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-citrus-and-ginger-sparkler-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-hibiscus-iced-tea.png",
+                     "available":  true,
+                     "id":  "drink-6",
+                     "category":  "Drinks",
+                     "notes":  "Nigerian-style hibiscus, lightly sweetened.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Nigerian-style hibiscus",
+                                         "Light sweetener",
+                                         "Ice"
+                                     ],
+                     "name":  "Hibiscus Iced Tea",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-hibiscus-iced-tea-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-coconut-water-cooler.png",
+                     "available":  true,
+                     "id":  "drink-7",
+                     "category":  "Drinks",
+                     "notes":  "Coconut water, lime, mint.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Coconut water",
+                                         "Lime",
+                                         "Mint"
+                                     ],
+                     "name":  "Coconut Water Cooler",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-coconut-water-cooler.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-chardonnay-pairing.png",
+                     "available":  true,
+                     "id":  "drink-8",
+                     "category":  "Drinks",
+                     "notes":  "Pairs with Seared Scallops and Lobster Bisque.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Chardonnay"
+                                     ],
+                     "name":  "Chardonnay Pairing",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-chardonnay-pairing.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-pinot-noir-pairing.png",
+                     "available":  true,
+                     "id":  "drink-9",
+                     "category":  "Drinks",
+                     "notes":  "Pairs with Wagyu Steak and Lamb Rack.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Pinot Noir"
+                                     ],
+                     "name":  "Pinot Noir Pairing",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-pinot-noir-pairing.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-sauvignon-blanc-pairing.png",
+                     "available":  true,
+                     "id":  "drink-10",
+                     "category":  "Drinks",
+                     "notes":  "Pairs with Sea Bass and Jollof Rice.",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Sauvignon Blanc"
+                                     ],
+                     "name":  "Sauvignon Blanc Pairing",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-sauvignon-blanc-pairing.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-peppercorn-crusted-beef-tenderloin.png",
+                     "available":  true,
+                     "id":  "dish-23",
+                     "category":  "Main",
+                     "notes":  "Seared filet, spicy red wine jus, garlic mash, grilled asparagus",
+                     "allergens":  "Milk",
+                     "ingredients":  [
+                                         "Beef tenderloin",
+                                         "Peppercorn crust",
+                                         "Red wine jus",
+                                         "Garlic mash",
+                                         "Grilled asparagus"
+                                     ],
+                     "name":  "Peppercorn Crusted Beef Tenderloin",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-peppercorn-crusted-beef-tenderloin-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-chili-grilled-prawns.png",
+                     "available":  true,
+                     "id":  "dish-24",
+                     "category":  "Main",
+                     "notes":  "Jumbo prawns in spicy herb butter, citrus couscous, roasted peppers",
+                     "allergens":  "Shellfish, Milk",
+                     "ingredients":  [
+                                         "Jumbo prawns",
+                                         "Spicy herb butter",
+                                         "Citrus couscous",
+                                         "Roasted peppers"
+                                     ],
+                     "name":  "Chili Grilled Prawns",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-chili-grilled-prawns-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-spicy-jollof-risotto.png",
+                     "available":  true,
+                     "id":  "dish-25",
+                     "category":  "African Special",
+                     "notes":  "Smoked tomato risotto, seared lamb slices, chili oil drizzle",
+                     "allergens":  "Milk",
+                     "ingredients":  [
+                                         "Smoked tomato risotto",
+                                         "Seared lamb slices",
+                                         "Chili oil"
+                                     ],
+                     "name":  "Spicy Jollof Risotto",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-spicy-jollof-risotto.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-grilled-portobello-with-truffle-mash.png",
+                     "available":  true,
+                     "id":  "dish-26",
+                     "category":  "Main",
+                     "notes":  "Charred mushroom, creamy truffle potato puree, roasted baby carrots, herb jus",
+                     "allergens":  "Milk",
+                     "ingredients":  [
+                                         "Portobello mushroom",
+                                         "Truffle potato puree",
+                                         "Roasted baby carrots",
+                                         "Herb jus"
+                                     ],
+                     "name":  "Grilled Portobello with Truffle Mash",
+                     "dietary":  [
+                                     "vegetarian"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-grilled-portobello-with-truffle-mash-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-smoked-cauliflower-steak.png",
+                     "available":  true,
+                     "id":  "dish-27",
+                     "category":  "Main",
+                     "notes":  "Cauliflower steak with brown butter glaze, lentil ragout, crispy shallots",
+                     "allergens":  "Milk",
+                     "ingredients":  [
+                                         "Cauliflower steak",
+                                         "Brown butter glaze",
+                                         "Lentil ragout",
+                                         "Crispy shallots"
+                                     ],
+                     "name":  "Smoked Cauliflower Steak",
+                     "dietary":  [
+                                     "vegetarian"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-smoked-cauliflower-steak-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-lobster-linguine.png",
+                     "available":  true,
+                     "id":  "dish-28",
+                     "category":  "Main",
+                     "notes":  "Butter-poached lobster, creamy white wine sauce, fresh herbs",
+                     "allergens":  "Shellfish, Milk, Gluten",
+                     "ingredients":  [
+                                         "Lobster",
+                                         "Linguine",
+                                         "White wine cream sauce",
+                                         "Fresh herbs"
+                                     ],
+                     "name":  "Lobster Linguine",
+                     "dietary":  [
+
+                                 ],
+                     "hoverImage":  "/images/menu/menu-lobster-linguine-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-filet-mignon-for-two.png",
+                     "available":  true,
+                     "id":  "dish-29",
+                     "category":  "Main",
+                     "notes":  "Center-cut tenderloin, truffle mash, red wine reduction",
+                     "allergens":  "Milk",
+                     "ingredients":  [
+                                         "Center-cut tenderloin",
+                                         "Truffle mash",
+                                         "Red wine reduction"
+                                     ],
+                     "name":  "Filet Mignon for Two",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-filet-mignon-for-two-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-citrus-burrata-salad.png",
+                     "available":  true,
+                     "id":  "dish-31",
+                     "category":  "Starters",
+                     "notes":  "Fresh burrata, blood orange, arugula, toasted seeds",
+                     "allergens":  "Milk",
+                     "ingredients":  [
+                                         "Burrata",
+                                         "Blood orange",
+                                         "Arugula",
+                                         "Toasted seeds"
+                                     ],
+                     "name":  "Citrus Burrata Salad",
+                     "dietary":  [
+                                     "vegetarian"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-citrus-burrata-salad-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-herb-grilled-chicken-breast.png",
+                     "available":  true,
+                     "id":  "dish-32",
+                     "category":  "Main",
+                     "notes":  "Light pan jus, roasted baby vegetables, quinoa",
+                     "allergens":  "None",
+                     "ingredients":  [
+                                         "Chicken breast",
+                                         "Light pan jus",
+                                         "Roasted baby vegetables",
+                                         "Quinoa"
+                                     ],
+                     "name":  "Herb Grilled Chicken Breast",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-herb-grilled-chicken-breast.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-wagyu-beef-with-truffle-emulsion.png",
+                     "available":  true,
+                     "id":  "dish-33",
+                     "category":  "Main",
+                     "notes":  "Premium wagyu, parsnip puree, micro greens",
+                     "allergens":  "Milk",
+                     "ingredients":  [
+                                         "Premium wagyu",
+                                         "Parsnip puree",
+                                         "Micro greens",
+                                         "Truffle emulsion"
+                                     ],
+                     "name":  "Wagyu Beef with Truffle Emulsion",
+                     "dietary":  [
+                                     "gluten-free"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-wagyu-beef-with-truffle-emulsion-hover.png"
+                 },
+                 {
+                     "image":  "/images/menu/menu-dark-chocolate-and-gold-leaf-mousse.png",
+                     "available":  true,
+                     "id":  "dish-34",
+                     "category":  "Dessert",
+                     "notes":  "Rich chocolate mousse, edible gold detail, raspberry coulis",
+                     "allergens":  "Milk",
+                     "ingredients":  [
+                                         "Dark chocolate",
+                                         "Cream",
+                                         "Edible gold leaf",
+                                         "Raspberry coulis"
+                                     ],
+                     "name":  "Dark Chocolate \u0026 Gold Leaf Mousse",
+                     "dietary":  [
+                                     "vegetarian"
+                                 ],
+                     "hoverImage":  "/images/menu/menu-dark-chocolate-and-gold-leaf-mousse-hover.png"
+                 }
+             ],
+    "events":  [
+                   {
+                       "id":  "E-01",
+                       "title":  "Reserve Cellar Wine Night",
+                       "date":  "2026-04-18",
+                       "summary":  "Vertical tasting with sommelier-led pairings."
+                   },
+                   {
+                       "id":  "E-02",
+                       "title":  "Live Jazz Dinner",
+                       "date":  "2026-03-28",
+                       "summary":  "Three-set jazz program synchronized with a five-course menu."
+                   },
+                   {
+                       "id":  "E-03",
+                       "title":  "Chef Masterclass",
+                       "date":  "2026-05-09",
+                       "summary":  "Hands-on session on plating, sauce reduction, and spice layering."
+                   }
+               ],
+    "reservations":  [
+                         {
+                             "id":  "R-800251",
+                             "guest":  "boluewedairo",
+                             "date":  "2026-02-03",
+                             "time":  "10:26",
+                             "guests":  2,
+                             "email":  "boluewedairo@gmail.com",
+                             "requests":  "",
+                             "status":  "confirmed",
+                             "createdAt":  "2026-02-20T09:22:11.828Z"
+                         }
+                     ]
+}

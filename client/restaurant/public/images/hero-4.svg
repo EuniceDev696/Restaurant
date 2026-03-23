@@ -1,0 +1,21 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 1000' role='img' aria-label='Hero 4'>
+  <defs>
+    <linearGradient id='g' x1='0' y1='0' x2='1' y2='1'>
+      <stop offset='0%' stop-color='#1a1410'/>
+      <stop offset='100%' stop-color='#6f2f20'/>
+    </linearGradient>
+    <radialGradient id='r' cx='75%' cy='25%' r='60%'>
+      <stop offset='0%' stop-color='#d8a15a' stop-opacity='0.45'/>
+      <stop offset='100%' stop-color='#d8a15a' stop-opacity='0'/>
+    </radialGradient>
+  </defs>
+  <rect width='1600' height='1000' fill='url(#g)'/>
+  <rect width='1600' height='1000' fill='url(#r)'/>
+  <g opacity='0.25' fill='none' stroke='#f0d4a8' stroke-width='2'>
+    <circle cx='260' cy='210' r='120'/>
+    <circle cx='1380' cy='800' r='180'/>
+    <path d='M120 840 C460 640, 980 980, 1520 760'/>
+  </g>
+  <text x='80' y='900' fill='#f4e6ce' font-size='58' font-family='Georgia, serif'>Hero 4</text>
+  <text x='80' y='958' fill='#d8b384' font-size='24' font-family='Arial, sans-serif'>Local deployment-safe placeholder image</text>
+</svg>
