@@ -2,12 +2,17 @@ services:
   - type: web
     name: restaurant-app
     runtime: node
+    plan: starter
     rootDir: client/restaurant
     buildCommand: npm install && npm run build
     startCommand: npm start
     healthCheckPath: /api/health
+    disk:
+      name: data
+      mountPath: /var/data
+      sizeGB: 1
     envVars:
       - key: NODE_VERSION
         value: 22
       - key: STORE_PATH
-        value: /opt/render/project/src/client/restaurant/server/data/store.json
+        value: /var/data/store.json

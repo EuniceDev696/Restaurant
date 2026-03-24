@@ -66,7 +66,9 @@ If you deploy on Render:
 2. In Render, create a Blueprint deployment from the repo.
 3. Render will build `client/restaurant`, run `npm run build`, and start the app with `npm start`.
 4. Set `CORS_ORIGINS` only if you split frontend and backend across different domains.
-5. Set `STORE_PATH` to a persistent disk mount if you need reservation/menu/event data to survive redeploys.
+5. The Blueprint mounts a persistent disk at `/var/data` and stores app data in `/var/data/store.json`.
+6. On first boot, the server automatically seeds that file from the bundled store data if the disk is empty.
+7. Keep the service on at least the `starter` plan, because persistent disks are not available on Render's free web service tier.
 
 ### 7. Persistence warning
 
